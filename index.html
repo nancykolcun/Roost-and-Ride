@@ -6,38 +6,57 @@
     <title>Roost & Ride</title>
     <style>
         body {
-            font-family: Georgia, serif;
-            background-color: #ffffff;
-            color: #333;
-            text-align: center;
             margin: 0;
-            padding: 0;
+            font-family: 'Georgia', serif;
+            background-color: #fefefe;
+            color: #333;
         }
         header {
+            text-align: center;
             padding: 20px;
+            background-color: #fff;
         }
-        img {
-            max-width: 300px;
+        header img {
+            max-width: 280px;
             height: auto;
         }
+        .hero {
+            background: url('cedarwood_longhorns.jpg') no-repeat center center;
+            background-size: cover;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 6px #000;
+        }
+        .hero h1 {
+            font-size: 3em;
+            background: rgba(0,0,0,0.4);
+            padding: 20px;
+            border-radius: 10px;
+        }
         .content {
-            padding: 30px;
-            max-width: 700px;
+            max-width: 800px;
             margin: auto;
+            padding: 40px 20px;
+            text-align: center;
         }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.6em;
+        .content p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
         }
         footer {
-            margin-top: 40px;
+            text-align: center;
             padding: 20px;
+            background-color: #fafafa;
             font-size: 0.9em;
             color: #777;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -45,10 +64,12 @@
     <header>
         <img src="roostandride_logo_web.jpg" alt="Roost and Ride Logo">
     </header>
-    <div class="content">
+    <div class="hero">
         <h1>Welcome to Roost & Ride</h1>
+    </div>
+    <div class="content">
         <p>Located in the rolling pastures of Rixeyville, Virginia, Roost & Ride offers a peaceful farm-stay Airbnb experience with the added convenience of car and limo service to nearby towns and wineries.</p>
-        <p>Come for the views, stay for the comfort — and ride in style when you're ready to explore.</p>
+        <p>Wake up to the beauty of our longhorns grazing under a sunrise sky, and ride in comfort when you're ready to explore the region.</p>
         <p><strong>Airbnb • Private Car Service • Country Hospitality</strong></p>
     </div>
     <footer>
