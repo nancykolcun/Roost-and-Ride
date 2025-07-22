@@ -1,0 +1,29 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('roostridebackground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+header {
+  padding: 20px;
+}
+.logo {
+  max-height: 80px;
+}
+nav {
+  background-color: rgba(0,0,0,0.6);
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 40px 20px;
+}
